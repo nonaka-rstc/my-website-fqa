@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>FAQ｜AI時代を生き抜くロードマップ</title>
+  <title>FAQ</title>
   <style>
     body {
       font-family: -apple-system, BlinkMacSystemFont, "Noto Sans JP", sans-serif;
@@ -14,31 +14,36 @@
       color: #333;
     }
 
+    .logo-container {
+      margin-bottom: 3rem; /* ロゴとタイトルの余白 */
+    }
+
+    .logo-container img {
+      width: 140px; /* PC時のロゴサイズ */
+    }
+
     @media (max-width: 768px) {
       body {
         padding: 1.5rem 1rem;
       }
 
       .logo-container img {
-        width: 120px;
+        width: 100px; /* スマホ時のロゴサイズ */
       }
-    }
-
-    .logo-container {
-      margin-bottom: 1rem;
     }
 
     h1 {
       text-align: center;
       margin-bottom: 3rem;
-      color: #333333; /* ← ページタイトルも濃いグレーに変更 */
+      color: #333333;
+      font-size: 3rem; /* タイトル文字を大きく */
     }
 
     h2 {
       margin-top: 4rem;
       margin-bottom: 1rem;
-      color: #333333; /* ← Step見出し文字を濃いグレーに */
-      border-left: 6px solid #333333; /* ← ラインも濃いグレーに統一 */
+      color: #333333;
+      border-left: 6px solid #333333;
       padding-left: 0.5rem;
     }
 
@@ -57,7 +62,7 @@
       font-weight: 600;
       cursor: pointer;
       position: relative;
-      color: #1877f2; /* ← 質問文をブルーに変更 */
+      color: #1877f2;
     }
 
     .faq-question::after {
@@ -75,7 +80,7 @@
       display: none;
       padding: 0.8rem 1.2rem;
       background: #fff;
-      border-left: 3px solid #3a0ca3;
+      border-left: 3px solid #1877f2;
     }
 
     .faq-item.open .faq-answer {
@@ -86,10 +91,17 @@
 <body>
 
   <div class="logo-container">
-    <img src="ritsuan_logo_black_v1.png" alt="ritsuan logo" style="width: 150px;">
+    <a href="https://ritsuan.com/" target="_blank" rel="noopener">
+      <img src="ritsuan_logo_black_v1.png" alt="ritsuan logo">
+    </a>
   </div>
 
-  <h1>FAQ｜AI時代を生き抜くロードマップ</h1>
+  <h1>FAQ</h1>
+
+</body>
+</html>
+
+
 
 
 <!-- Step01 -->
